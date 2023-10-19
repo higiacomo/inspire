@@ -1,0 +1,57 @@
+/*
+ Theme Name:   Inspirebiz
+ Template:     Divi
+*/
+
+.about-section img {
+	width: 200px;
+	height: auto;
+}
+#main-header {
+	box-shadow: none;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-top: 10px;
+}
+.et_project_meta {
+	display: none !important;
+}
+.single-project .container {
+	max-width: 800px;	
+}
+.single-project h1.entry-title {
+	text-align: center;
+}
+body.single-project {
+	font-size: 18px;
+}
+body.single-project #footer-info {
+	font-size:14px;
+}
+body.single-project .nav-single a {
+	font-size: 18px !important;
+}
+body.single-project #main-content .container {
+	padding-top: 25px !important;
+}
+
+
+.et_pb_portfolio_item{
+    position: relative;
+}
+.et_pb_portfolio_item h2{ 
+    position: absolute;
+    top:5%;
+    left:5%;
+    padding-right: 5%;
+    color: #000 !important;
+    z-index: 55;
+
+    display:none;
+      transform: translate3d(0px, 0px, 0px);
+      transition: all 0.3s ease 0s;
+    }
+.et_pb_portfolio_item:hover h2{display:block;}
